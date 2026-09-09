@@ -1,0 +1,98 @@
+[
+  {
+    "t": 0.0,
+    "gt": false,
+    "img_pred": false,
+    "img_tok": 1350,
+    "img_ms": 12002.01392173767,
+    "vid_pred": false,
+    "vid_tok": 182,
+    "vid_ms": 2505.2809715270996,
+    "img_raw": "No",
+    "vid_raw": "no"
+  },
+  {
+    "t": 24.0,
+    "gt": true,
+    "img_pred": false,
+    "img_tok": 1350,
+    "img_ms": 5266.97564125061,
+    "vid_pred": true,
+    "vid_tok": 182,
+    "vid_ms": 2341.174840927124,
+    "img_raw": "No",
+    "vid_raw": "Yes"
+  },
+  {
+    "t": 40.0,
+    "gt": true,
+    "img_pred": true,
+    "img_tok": 1350,
+    "img_ms": 5324.596166610718,
+    "vid_pred": false,
+    "vid_tok": 182,
+    "vid_ms": 2378.939628601074,
+    "img_raw": "Yes",
+    "vid_raw": "No"
+  },
+  {
+    "t": 64.0,
+    "gt": true,
+    "img_pred": false,
+    "img_tok": 1350,
+    "img_ms": 5530.189514160156,
+    "vid_pred": false,
+    "vid_tok": 182,
+    "vid_ms": 2479.8569679260254,
+    "img_raw": "No",
+    "vid_raw": "No"
+  },
+  {
+    "t": 120.0,
+    "gt": false,
+    "img_pred": false,
+    "img_tok": 1350,
+    "img_ms": 5386.565923690796,
+    "vid_pred": true,
+    "vid_tok": 182,
+    "vid_ms": 2310.7118606567383,
+    "img_raw": "No",
+    "vid_raw": "yes"
+  },
+  {
+    "t": 200.0,
+    "gt": false,
+    "img_pred": false,
+    "img_tok": 1350,
+    "img_ms": 9549.868822097778,
+    "vid_pred": false,
+    "vid_tok": 182,
+    "vid_ms": 2556.022882461548,
+    "img_raw": "No",
+    "vid_raw": "no"
+  },
+  {
+    "t": 272.0,
+    "gt": true,
+    "img_pred": false,
+    "img_tok": 1350,
+    "img_ms": 5589.771270751953,
+    "vid_pred": false,
+    "vid_tok": 182,
+    "vid_ms": 2514.126777648926,
+    "img_raw": "No",
+    "vid_raw": "No"
+  },
+  {
+    "t": 280.0,
+    "gt": true,
+    "img_pred": false,
+    "img_tok": 1350,
+    "img_ms": 5477.835893630981,
+    "vid_pred": false,
+    "vid_tok": 182,
+    "vid_ms": 2516.418695449829,
+    "img_raw": "No",
+    "vid_raw": "No"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "model": "SmolVLM2-500M-Video",
+  "frames": 2,
+  "px": 256,
+  "n": 55,
+  "tp": 9,
+  "tn": 2,
+  "fp": 44,
+  "fn": 0,
+  "acc": 20.0,
+  "f1": 0.29,
+  "pred_work_pct": 96.4,
+  "note": "OOM at 55/60; 2 frames max on Orin NX (870 visual tokens/frame)"
+}

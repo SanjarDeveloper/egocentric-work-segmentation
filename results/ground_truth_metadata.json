@@ -1,0 +1,134 @@
+{
+  chunk_id: 5e19608c34b6a880,
+  index: 3,
+  start_ts: 900000,
+  end_ts: 1200000,
+  segments: [
+    {
+      title: idle,
+      description: null,
+      start_ts: 900000,
+      end_ts: 922000
+    },
+    {
+      title: Wiping the baking tray,
+      description: The worker wipes the surface of the baking tray with a white cloth.,
+      start_ts: 922000,
+      end_ts: 927000
+    },
+    {
+      title: Placing inserts in tray,
+      description: The worker places two cardboard strips and a paper label into the baking tray.,
+      start_ts: 927000,
+      end_ts: 930000
+    },
+    {
+      title: idle,
+      description: null,
+      start_ts: 930000,
+      end_ts: 940000
+    },
+    {
+      title: Wiping the baking tray,
+      description: The worker wipes the surface of the second baking tray with a cloth.,
+      start_ts: 940000,
+      end_ts: 946000
+    },
+    {
+      title: idle,
+      description: null,
+      start_ts: 946000,
+      end_ts: 947000
+    },
+    {
+      title: Placing inserts in tray,
+      description: The worker places cardboard strips and a paper label into the second baking tray.,
+      start_ts: 947000,
+      end_ts: 950000
+    },
+    {
+      title: idle,
+      description: null,
+      start_ts: 950000,
+      end_ts: 966000
+    },
+    {
+      title: Wiping the baking tray,
+      description: The worker wipes the surface of the third baking tray.,
+      start_ts: 966000,
+      end_ts: 971000
+    },
+    {
+      title: idle,
+      description: null,
+      start_ts: 971000,
+      end_ts: 972000
+    },
+    {
+      title: Placing inserts in tray,
+      description: The worker places cardboard strips and a paper label into the third baking tray.,
+      start_ts: 972000,
+      end_ts: 975000
+    },
+    {
+      title: idle,
+      description: null,
+      start_ts: 975000,
+      end_ts: 984000
+    },
+    {
+      title: Wiping the baking tray,
+      description: The worker wipes the surface of the fourth baking tray with a cloth.,
+      start_ts: 984000,
+      end_ts: 990000
+    },
+    {
+      title: idle,
+      description: null,
+      start_ts: 990000,
+      end_ts: 1080000
+    },
+    {
+      title: Placing cardboard strips in tray,
+      description: The worker places cardboard strips into a metal tray and then stacks the tray on top of others.,
+      start_ts: 1080000,
+      end_ts: 1087000
+    },
+    {
+      title: idle,
+      description: null,
+      start_ts: 1087000,
+      end_ts: 1161000
+    },
+    {
+      title: Taking foam pieces from colleague,
+      description: The worker reaches out and takes several white foam packaging pieces from another worker.,
+      start_ts: 1161000,
+      end_ts: 1166000
+    },
+    {
+      title: idle,
+      description: null,
+      start_ts: 1166000,
+      end_ts: 1173000
+    },
+    {
+      title: Rinsing and wringing cloth,
+      description: The worker dips a cloth into a bucket of water and wrings it out thoroughly.,
+      start_ts: 1173000,
+      end_ts: 1185000
+    },
+    {
+      title: idle,
+      description: null,
+      start_ts: 1185000,
+      end_ts: 1193000
+    },
+    {
+      title: Cleaning oven front panel,
+      description: The worker uses the damp cloth to wipe down the front control panel of an oven on the assembly line.,
+      start_ts: 1193000,
+      end_ts: 1200000
+    }
+  ]
+}

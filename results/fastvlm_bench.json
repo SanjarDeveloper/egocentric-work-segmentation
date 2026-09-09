@@ -1,0 +1,505 @@
+{
+  "rows": [
+    {
+      "t": 2,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes, the worker is a",
+      "desc": "The person is holding a plastic bag, possibly to sort through or organize the it"
+    },
+    {
+      "t": 7,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a piece of meat with their left hand, while their right ha"
+    },
+    {
+      "t": 12,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a box with their hands, possibly moving or organizing the "
+    },
+    {
+      "t": 17,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a piece of paper in their hands, possibly examining it or "
+    },
+    {
+      "t": 22,
+      "gt": true,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person in the image is holding a black cord with their right hand. It appear"
+    },
+    {
+      "t": 27,
+      "gt": true,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a piece of cardboard with their right hand, possibly prepa"
+    },
+    {
+      "t": 32,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a black tray with their left hand, while their right hand "
+    },
+    {
+      "t": 37,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes",
+      "desc": "The person is holding a black plastic tray with their hands."
+    },
+    {
+      "t": 42,
+      "gt": true,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a white cloth in their hands and appears to be either dryi"
+    },
+    {
+      "t": 47,
+      "gt": true,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person is holding a piece of cardboard in their hands, possibly preparing to"
+    },
+    {
+      "t": 52,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a tray with their left hand and a piece of wood in their r"
+    },
+    {
+      "t": 57,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a tray with their hands, possibly preparing to place it on"
+    },
+    {
+      "t": 62,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a black object with a yellow ring, possibly a tool or a pi"
+    },
+    {
+      "t": 67,
+      "gt": true,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes, the worker is a",
+      "desc": "The person is using their hands to clean a metal tray. They are holding a cloth "
+    },
+    {
+      "t": 72,
+      "gt": true,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person appears to be reaching for a white piece of paper on the floor, possi"
+    },
+    {
+      "t": 77,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a tray with a piece of wood in their left hand, while thei"
+    },
+    {
+      "t": 82,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a tray with their hands, possibly preparing to place it on"
+    },
+    {
+      "t": 87,
+      "gt": true,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a white cloth in their hands and using a pair of scissors "
+    },
+    {
+      "t": 92,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a white cloth and wiping or cleaning the surface of a meta"
+    },
+    {
+      "t": 97,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a bag of wood in their left hand and a piece of wood in th"
+    },
+    {
+      "t": 102,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a piece of paper in their left hand and a plastic tray in "
+    },
+    {
+      "t": 107,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a tray with a piece of paper on it."
+    },
+    {
+      "t": 112,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a piece of fabric with their hands, possibly preparing to "
+    },
+    {
+      "t": 117,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a black tray with their hands, possibly preparing to place"
+    },
+    {
+      "t": 122,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person is holding a black object in their right hand, which appears to be a "
+    },
+    {
+      "t": 127,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person appears to be holding a small object in their right hand, which could"
+    },
+    {
+      "t": 132,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a wooden board with their left hand, and their right hand "
+    },
+    {
+      "t": 137,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No, the worker is no",
+      "desc": "The person in the image is reaching for a box with their left hand while their r"
+    },
+    {
+      "t": 142,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a white plastic bag in their left hand, which is partially"
+    },
+    {
+      "t": 147,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a plastic bag, possibly in the process of picking up or pl"
+    },
+    {
+      "t": 152,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a circular object in their right hand, which appears to be"
+    },
+    {
+      "t": 157,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No, the worker is no",
+      "desc": "The person in the image is holding a black cord, which is likely connected to on"
+    },
+    {
+      "t": 162,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes, the worker is a",
+      "desc": "The person is holding a black cord in their hands, possibly interacting with an "
+    },
+    {
+      "t": 167,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person is holding a phone in their right hand, which is raised to their face"
+    },
+    {
+      "t": 172,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No, the worker is no",
+      "desc": "The person is holding a camera in their hands, possibly to capture footage or mo"
+    },
+    {
+      "t": 177,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a tray with their left hand and using their right hand to "
+    },
+    {
+      "t": 182,
+      "gt": true,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a piece of paper in their hands."
+    },
+    {
+      "t": 187,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a stack of plastic trays in their hands."
+    },
+    {
+      "t": 192,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No, the worker is no",
+      "desc": "The person in the image is holding a camera, which suggests they are either taki"
+    },
+    {
+      "t": 197,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person is holding a phone in their right hand, which is raised to their face"
+    },
+    {
+      "t": 202,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person in the image is holding a black object in their hands, which appears "
+    },
+    {
+      "t": 207,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes, the worker is a",
+      "desc": "The person is holding a small object in their left hand, which appears to be a s"
+    },
+    {
+      "t": 212,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person in the image is holding a small object in their hands, which appears "
+    },
+    {
+      "t": 217,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person in the image is holding a box with both hands, which suggests they ar"
+    },
+    {
+      "t": 222,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person in the image is holding a small object in their hands, which appears "
+    },
+    {
+      "t": 227,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person is holding a white object in their hands."
+    },
+    {
+      "t": 232,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person is holding a camera in their hands."
+    },
+    {
+      "t": 237,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person appears to be holding a small object, possibly a tool or a piece of e"
+    },
+    {
+      "t": 242,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person in the image is holding their hands together in front of them, which "
+    },
+    {
+      "t": 247,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person in the image is holding a black object in their left hand and pointin"
+    },
+    {
+      "t": 252,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No, the worker is no",
+      "desc": "The person in the image is holding a pair of scissors in their hands."
+    },
+    {
+      "t": 257,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person in the image is holding a white object in their hands. It is not poss"
+    },
+    {
+      "t": 262,
+      "gt": true,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes, the worker is a",
+      "desc": "The person is holding a large piece of paper or a document in their hands, possi"
+    },
+    {
+      "t": 267,
+      "gt": false,
+      "yesno": false,
+      "desc_work": true,
+      "raw_y": "No.",
+      "desc": "The person appears to be holding a black object in their right hand, which could"
+    },
+    {
+      "t": 272,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes, the worker is a",
+      "desc": "The person is holding a white object in their hands, which could be a piece of p"
+    },
+    {
+      "t": 277,
+      "gt": true,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a small object in their right hand, which appears to be a "
+    },
+    {
+      "t": 282,
+      "gt": true,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a cloth or rag in their hands and wiping or cleaning the f"
+    },
+    {
+      "t": 287,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person in the image is holding a gray cloth in their hands. It appears that "
+    },
+    {
+      "t": 292,
+      "gt": false,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes.",
+      "desc": "The person is holding a gray sweater in their left hand, while their right hand "
+    },
+    {
+      "t": 297,
+      "gt": true,
+      "yesno": true,
+      "desc_work": true,
+      "raw_y": "Yes, the worker is a",
+      "desc": "The person in the image is using a prosthetic hand to interact with the oven. Th"
+    }
+  ],
+  "yesno": {
+    "acc": 43.3,
+    "prec": 23.8,
+    "rec": 83.3,
+    "f1": 0.37,
+    "tp": 10,
+    "tn": 16,
+    "fp": 32,
+    "fn": 2
+  },
+  "desc": {
+    "acc": 20.0,
+    "prec": 20.0,
+    "rec": 100.0,
+    "f1": 0.333,
+    "tp": 12,
+    "tn": 0,
+    "fp": 48,
+    "fn": 0
+  },
+  "median_ms": 3540
+}

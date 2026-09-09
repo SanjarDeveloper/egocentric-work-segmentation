@@ -1,0 +1,169 @@
+{
+  "nframes": 16,
+  "px": 256,
+  "thr": 0.6,
+  "min_span_s": 2.0,
+  "merge_gap_s": 2.0,
+  "prompt": "These %d frames cover one continuous %.0f-second clip, in order, and the camera wearer is working throughout it.\nLook at the whole clip and name the single dominant action.\nAnswer with a verb and the object only, 2 or 3 words, lowercase, no sentence and no explanation.\nExamples of the format: wiping tray, cutting cardboard, rinsing cloth, placing inserts.",
+  "gt_spans": [
+    {
+      "start": 22.0,
+      "end": 27.0,
+      "gt_title": "Wiping the baking tray",
+      "gt_desc": "The worker wipes the surface of the baking tray with a white cloth.",
+      "dur": 5.0,
+      "label": "cleaning tray",
+      "raw": "cleaning tray",
+      "tokens": 327,
+      "ms": 9798
+    },
+    {
+      "start": 27.0,
+      "end": 30.0,
+      "gt_title": "Placing inserts in tray",
+      "gt_desc": "The worker places two cardboard strips and a paper label into the baking tray.",
+      "dur": 3.0,
+      "label": "placing papers in",
+      "raw": "placing papers in tray",
+      "tokens": 231,
+      "ms": 5777
+    },
+    {
+      "start": 40.0,
+      "end": 46.0,
+      "gt_title": "Wiping the baking tray",
+      "gt_desc": "The worker wipes the surface of the second baking tray with a cloth.",
+      "dur": 6.0,
+      "label": "cleaning metal tray",
+      "raw": "cleaning metal tray",
+      "tokens": 375,
+      "ms": 6087
+    },
+    {
+      "start": 47.0,
+      "end": 50.0,
+      "gt_title": "Placing inserts in tray",
+      "gt_desc": "The worker places cardboard strips and a paper label into the second baking tray.",
+      "dur": 3.0,
+      "label": "placing papers in",
+      "raw": "placing papers in tray",
+      "tokens": 231,
+      "ms": 5661
+    },
+    {
+      "start": 66.0,
+      "end": 71.0,
+      "gt_title": "Wiping the baking tray",
+      "gt_desc": "The worker wipes the surface of the third baking tray.",
+      "dur": 5.0,
+      "label": "cleaning tray",
+      "raw": "cleaning tray",
+      "tokens": 327,
+      "ms": 4777
+    },
+    {
+      "start": 72.0,
+      "end": 75.0,
+      "gt_title": "Placing inserts in tray",
+      "gt_desc": "The worker places cardboard strips and a paper label into the third baking tray.",
+      "dur": 3.0,
+      "label": "placing papers in",
+      "raw": "placing papers in tray",
+      "tokens": 231,
+      "ms": 5650
+    },
+    {
+      "start": 84.0,
+      "end": 90.0,
+      "gt_title": "Wiping the baking tray",
+      "gt_desc": "The worker wipes the surface of the fourth baking tray with a cloth.",
+      "dur": 6.0,
+      "label": "unpacking plastic bags",
+      "raw": "unpacking plastic bags",
+      "tokens": 375,
+      "ms": 5943
+    },
+    {
+      "start": 180.0,
+      "end": 187.0,
+      "gt_title": "Placing cardboard strips in tray",
+      "gt_desc": "The worker places cardboard strips into a metal tray and then stacks the tray on top of others.",
+      "dur": 7.0,
+      "label": "unpacking boxes",
+      "raw": "unpacking boxes",
+      "tokens": 423,
+      "ms": 5157
+    },
+    {
+      "start": 261.0,
+      "end": 266.0,
+      "gt_title": "Taking foam pieces from colleague",
+      "gt_desc": "The worker reaches out and takes several white foam packaging pieces from another worker.",
+      "dur": 5.0,
+      "label": "holding and arranging",
+      "raw": "holding and arranging white rods",
+      "tokens": 327,
+      "ms": 6911
+    },
+    {
+      "start": 273.0,
+      "end": 285.0,
+      "gt_title": "Rinsing and wringing cloth",
+      "gt_desc": "The worker dips a cloth into a bucket of water and wrings it out thoroughly.",
+      "dur": 12.0,
+      "label": "filling bucket",
+      "raw": "filling bucket",
+      "tokens": 473,
+      "ms": 5199
+    },
+    {
+      "start": 293.0,
+      "end": 300.0,
+      "gt_title": "Cleaning oven front panel",
+      "gt_desc": "The worker uses the damp cloth to wipe down the front control panel of an oven on the assembly line.",
+      "dur": 7.0,
+      "label": "opening oven door",
+      "raw": "opening oven door",
+      "tokens": 423,
+      "ms": 5184
+    }
+  ],
+  "pyes_spans": [
+    {
+      "start": 16.0,
+      "end": 134.0,
+      "dur": 118.0,
+      "label": "unpacking boxes",
+      "raw": "unpacking boxes",
+      "tokens": 481,
+      "ms": 5120
+    },
+    {
+      "start": 144.0,
+      "end": 186.0,
+      "dur": 42.0,
+      "label": "unpacking boxes",
+      "raw": "unpacking boxes",
+      "tokens": 478,
+      "ms": 5156
+    },
+    {
+      "start": 274.0,
+      "end": 288.0,
+      "dur": 14.0,
+      "label": "placing sponge",
+      "raw": "placing sponge",
+      "tokens": 474,
+      "ms": 3943
+    },
+    {
+      "start": 294.0,
+      "end": 298.0,
+      "dur": 4.0,
+      "label": "pulling drawer",
+      "raw": "pulling drawer",
+      "tokens": 279,
+      "ms": 4823
+    }
+  ]
+}

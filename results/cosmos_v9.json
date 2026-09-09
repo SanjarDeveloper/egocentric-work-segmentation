@@ -1,0 +1,1187 @@
+[
+  {
+    "config": "A_current",
+    "frames": 16,
+    "px": 256,
+    "window_s": 8.0,
+    "fps": 2.0,
+    "prompt": "These 16 frames are 0.5 seconds apart, in order. Is the camera wearer actively working with their hands on an object during this period (wiping, scrubbing, placing, fitting, cutting, operating)? Answer no if they are only walking, carrying, standing, waiting, looking around, or their hands are empty or out of view. Answer yes or no.",
+    "input_mode": "video+metadata",
+    "median_ms": 2716.6,
+    "median_tokens": 470,
+    "metrics": {
+      "tp": 5,
+      "tn": 12,
+      "fp": 20,
+      "fn": 0,
+      "acc": 45.9,
+      "prec": 20.0,
+      "rec": 100.0,
+      "f1": 0.333,
+      "pred_work_pct": 67.6,
+      "gt_work_pct": 13.5
+    },
+    "rows": [
+      {
+        "start": 0.0,
+        "end": 8.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 8.0,
+        "end": 16.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 16.0,
+        "end": 24.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 24.0,
+        "end": 32.0,
+        "gt_work": true,
+        "gt_work_frac": 0.75,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 32.0,
+        "end": 40.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 40.0,
+        "end": 48.0,
+        "gt_work": true,
+        "gt_work_frac": 0.875,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 48.0,
+        "end": 56.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 56.0,
+        "end": 64.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 64.0,
+        "end": 72.0,
+        "gt_work": true,
+        "gt_work_frac": 0.625,
+        "pred_work": true,
+        "label": "",
+        "raw": "Yes",
+        "tokens": 470
+      },
+      {
+        "start": 72.0,
+        "end": 80.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 80.0,
+        "end": 88.0,
+        "gt_work": false,
+        "gt_work_frac": 0.5,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 88.0,
+        "end": 96.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 96.0,
+        "end": 104.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 104.0,
+        "end": 112.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 112.0,
+        "end": 120.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 120.0,
+        "end": 128.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 128.0,
+        "end": 136.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 136.0,
+        "end": 144.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 144.0,
+        "end": 152.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 152.0,
+        "end": 160.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 160.0,
+        "end": 168.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 168.0,
+        "end": 176.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 176.0,
+        "end": 184.0,
+        "gt_work": false,
+        "gt_work_frac": 0.5,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 184.0,
+        "end": 192.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 192.0,
+        "end": 200.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 200.0,
+        "end": 208.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 208.0,
+        "end": 216.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 216.0,
+        "end": 224.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 224.0,
+        "end": 232.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 232.0,
+        "end": 240.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 240.0,
+        "end": 248.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 248.0,
+        "end": 256.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 256.0,
+        "end": 264.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 264.0,
+        "end": 272.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 470
+      },
+      {
+        "start": 272.0,
+        "end": 280.0,
+        "gt_work": true,
+        "gt_work_frac": 0.875,
+        "pred_work": true,
+        "label": "",
+        "raw": "Yes",
+        "tokens": 470
+      },
+      {
+        "start": 280.0,
+        "end": 288.0,
+        "gt_work": true,
+        "gt_work_frac": 0.625,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      },
+      {
+        "start": 288.0,
+        "end": 296.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 470
+      }
+    ]
+  },
+  {
+    "config": "B_majority",
+    "frames": 16,
+    "px": 256,
+    "window_s": 8.0,
+    "fps": 2.0,
+    "prompt": "This is an 8 second clip, in order. Judge the whole clip, not a moment in it.\nAnswer yes only if the camera wearer is working with their hands on an object for MOST of these 8 seconds - wiping, scrubbing, placing, fitting, cutting, operating.\nAnswer no if the working part is brief, if they are mainly walking, carrying, standing, waiting, reaching or looking around, or if their hands are empty or out of view for most of the clip.\nWhen unsure, answer no. Answer yes or no.",
+    "input_mode": "video+metadata",
+    "median_ms": 2763.3,
+    "median_tokens": 503,
+    "metrics": {
+      "tp": 0,
+      "tn": 32,
+      "fp": 0,
+      "fn": 5,
+      "acc": 86.5,
+      "prec": 0.0,
+      "rec": 0.0,
+      "f1": 0.0,
+      "pred_work_pct": 0.0,
+      "gt_work_pct": 13.5
+    },
+    "rows": [
+      {
+        "start": 0.0,
+        "end": 8.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 8.0,
+        "end": 16.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 16.0,
+        "end": 24.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 24.0,
+        "end": 32.0,
+        "gt_work": true,
+        "gt_work_frac": 0.75,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 32.0,
+        "end": 40.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 40.0,
+        "end": 48.0,
+        "gt_work": true,
+        "gt_work_frac": 0.875,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 48.0,
+        "end": 56.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 56.0,
+        "end": 64.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 64.0,
+        "end": 72.0,
+        "gt_work": true,
+        "gt_work_frac": 0.625,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 72.0,
+        "end": 80.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 80.0,
+        "end": 88.0,
+        "gt_work": false,
+        "gt_work_frac": 0.5,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 88.0,
+        "end": 96.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 96.0,
+        "end": 104.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 104.0,
+        "end": 112.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 112.0,
+        "end": 120.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 120.0,
+        "end": 128.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 128.0,
+        "end": 136.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 136.0,
+        "end": 144.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 144.0,
+        "end": 152.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 152.0,
+        "end": 160.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 160.0,
+        "end": 168.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 168.0,
+        "end": 176.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 176.0,
+        "end": 184.0,
+        "gt_work": false,
+        "gt_work_frac": 0.5,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 184.0,
+        "end": 192.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 192.0,
+        "end": 200.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 200.0,
+        "end": 208.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 208.0,
+        "end": 216.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 216.0,
+        "end": 224.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 224.0,
+        "end": 232.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 232.0,
+        "end": 240.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 240.0,
+        "end": 248.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 248.0,
+        "end": 256.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 256.0,
+        "end": 264.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 264.0,
+        "end": 272.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 272.0,
+        "end": 280.0,
+        "gt_work": true,
+        "gt_work_frac": 0.875,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 280.0,
+        "end": 288.0,
+        "gt_work": true,
+        "gt_work_frac": 0.625,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      },
+      {
+        "start": 288.0,
+        "end": 296.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 503
+      }
+    ]
+  },
+  {
+    "config": "C_advancing",
+    "frames": 16,
+    "px": 256,
+    "window_s": 8.0,
+    "fps": 2.0,
+    "prompt": "This is an 8 second clip, in order. Compare the first frames with the last frames.\nAnswer yes only if a task visibly ADVANCED during the clip - an object ends up cleaner, moved into place, assembled, cut, or otherwise changed by the wearer's hands.\nAnswer no if nothing about the objects changed: hands moving without changing anything, walking, carrying, holding, reaching, searching, waiting, or hands empty or out of view.\nMoving your hands is not work. Changing something is work.\nWhen unsure, answer no. Answer yes or no.",
+    "input_mode": "video+metadata",
+    "median_ms": 2759.2,
+    "median_tokens": 506,
+    "metrics": {
+      "tp": 2,
+      "tn": 27,
+      "fp": 5,
+      "fn": 3,
+      "acc": 78.4,
+      "prec": 28.6,
+      "rec": 40.0,
+      "f1": 0.333,
+      "pred_work_pct": 18.9,
+      "gt_work_pct": 13.5
+    },
+    "rows": [
+      {
+        "start": 0.0,
+        "end": 8.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 8.0,
+        "end": 16.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 16.0,
+        "end": 24.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 506
+      },
+      {
+        "start": 24.0,
+        "end": 32.0,
+        "gt_work": true,
+        "gt_work_frac": 0.75,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 506
+      },
+      {
+        "start": 32.0,
+        "end": 40.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 40.0,
+        "end": 48.0,
+        "gt_work": true,
+        "gt_work_frac": 0.875,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 48.0,
+        "end": 56.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 506
+      },
+      {
+        "start": 56.0,
+        "end": 64.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 64.0,
+        "end": 72.0,
+        "gt_work": true,
+        "gt_work_frac": 0.625,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 506
+      },
+      {
+        "start": 72.0,
+        "end": 80.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 80.0,
+        "end": 88.0,
+        "gt_work": false,
+        "gt_work_frac": 0.5,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 506
+      },
+      {
+        "start": 88.0,
+        "end": 96.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 96.0,
+        "end": 104.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 104.0,
+        "end": 112.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 506
+      },
+      {
+        "start": 112.0,
+        "end": 120.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 120.0,
+        "end": 128.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 128.0,
+        "end": 136.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 136.0,
+        "end": 144.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 144.0,
+        "end": 152.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 152.0,
+        "end": 160.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 160.0,
+        "end": 168.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 168.0,
+        "end": 176.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 176.0,
+        "end": 184.0,
+        "gt_work": false,
+        "gt_work_frac": 0.5,
+        "pred_work": true,
+        "label": "",
+        "raw": "yes",
+        "tokens": 506
+      },
+      {
+        "start": 184.0,
+        "end": 192.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 192.0,
+        "end": 200.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 200.0,
+        "end": 208.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 208.0,
+        "end": 216.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 216.0,
+        "end": 224.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 224.0,
+        "end": 232.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 232.0,
+        "end": 240.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 240.0,
+        "end": 248.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 248.0,
+        "end": 256.0,
+        "gt_work": false,
+        "gt_work_frac": 0.0,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 256.0,
+        "end": 264.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 264.0,
+        "end": 272.0,
+        "gt_work": false,
+        "gt_work_frac": 0.25,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 272.0,
+        "end": 280.0,
+        "gt_work": true,
+        "gt_work_frac": 0.875,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 280.0,
+        "end": 288.0,
+        "gt_work": true,
+        "gt_work_frac": 0.625,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      },
+      {
+        "start": 288.0,
+        "end": 296.0,
+        "gt_work": false,
+        "gt_work_frac": 0.375,
+        "pred_work": false,
+        "label": "",
+        "raw": "no",
+        "tokens": 506
+      }
+    ]
+  }
+]

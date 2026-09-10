@@ -1,8 +1,15 @@
-# Media — the source video and MCAP chunks are hundreds of MB to ~11 GB
+# Media — recordings run from hundreds of MB to 33 GB, overlays to 180 MB
 *.mp4
 *.mcap
 *.avi
 *.mov
+*.jpg
+*.png
+!frames/*.jpg
+
+# Extracted sensor data and frame caches
+*.npz
+*.npy
 
 # Model caches
 .cache/

@@ -1,0 +1,27 @@
+{
+  "clip": "GAS_TESTING 47cb14298f7e371d",
+  "gt_work_pct": 57.3,
+  "individual": {
+    "VLM p_yes": 0.6108,
+    "wrist jerk": 0.5748,
+    "wrist gyro": 0.5352,
+    "head jerk": 0.4553
+  },
+  "correlation_vlm_imu": {
+    "wrist_jerk": 0.2382,
+    "wrist_gyro": -0.0505,
+    "head_jerk": -0.1624
+  },
+  "always_yes_f1": 0.729,
+  "best_fusion": {
+    "imu_feature": "wrist_jerk",
+    "imu_weight": 0.5,
+    "head_feature": "head_jerk",
+    "head_weight": 0.5,
+    "auc": 0.6384,
+    "f1": 0.708,
+    "percentile": 10,
+    "accuracy": 0.57
+  },
+  "upper_bound_fitted_auc": 0.6294
+}

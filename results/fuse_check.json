@@ -1,0 +1,16 @@
+{
+  "clip_dur_s": 300.0,
+  "gt_work_pct": 20.7,
+  "wrist_only_auc": 0.7827,
+  "best_fusion": {
+    "wrist_feature": "gyro",
+    "head_feature": "head_jerk",
+    "head_weight": 0.75,
+    "auc": 0.8187,
+    "f1": 0.579,
+    "percentile": 70,
+    "precision": 0.489,
+    "recall": 0.71,
+    "accuracy": 0.787
+  }
+}

@@ -1,0 +1,1370 @@
+{
+  "source_mp4": "/media/user/EGOX-040-8F52E/MCAP_ORBBEC_SAMPLE/SAMPLE_GAS_TESTING/47cb14298f7e371d_ego.mp4",
+  "metadata": "/media/user/EGOX-040-8F52E/MCAP_ORBBEC_SAMPLE/SAMPLE_GAS_TESTING/47cb14298f7e371d_metadata.json",
+  "chunk_id": "47cb14298f7e371d",
+  "config": {
+    "window_s": 8.0,
+    "stride_s": 2.0,
+    "nframes": 16,
+    "px": 256,
+    "threshold": 0.55,
+    "min_span_s": 2.0,
+    "merge_gap_s": 1.5,
+    "model": "embedl/Cosmos-Reason2-2B-W4A16",
+    "verbs": [
+      "testing",
+      "adjusting",
+      "inspecting",
+      "placing",
+      "opening",
+      "closing",
+      "turning",
+      "pressing",
+      "picking",
+      "carrying",
+      "connecting",
+      "wiping"
+    ]
+  },
+  "gt": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 10.0,
+      "end": 13.0,
+      "title": "Testing stove knobs",
+      "description": "The worker tests the knobs on the front of the stove with their right hand.",
+      "work": true
+    },
+    {
+      "start": 13.0,
+      "end": 41.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 41.0,
+      "end": 51.0,
+      "title": "Testing stove knobs",
+      "description": "The worker tests the knobs on the front of the stove with their right hand.",
+      "work": true
+    },
+    {
+      "start": 51.0,
+      "end": 90.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 90.0,
+      "end": 98.0,
+      "title": "Picking up white plastic strip",
+      "description": "The worker picks up a white plastic strip from the floor and carries it to the stove.",
+      "work": true
+    },
+    {
+      "start": 98.0,
+      "end": 100.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 100.0,
+      "end": 103.0,
+      "title": "Testing stove knobs",
+      "description": "The worker tests the knobs on the front of the stove with both hands.",
+      "work": true
+    },
+    {
+      "start": 103.0,
+      "end": 115.0,
+      "title": "Adjusting stove control knobs",
+      "description": "The worker uses both hands to press and turn the control knobs on the front of the stove.",
+      "work": true
+    },
+    {
+      "start": 115.0,
+      "end": 116.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 116.0,
+      "end": 125.0,
+      "title": "Inspecting stove top surface",
+      "description": "The worker places their hands on the stove top, feeling and inspecting the surface.",
+      "work": true
+    },
+    {
+      "start": 125.0,
+      "end": 142.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 142.0,
+      "end": 152.0,
+      "title": "Testing stove burner knobs",
+      "description": "The worker turns several burner knobs on the front panel to test their functionality.",
+      "work": true
+    },
+    {
+      "start": 152.0,
+      "end": 154.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 154.0,
+      "end": 165.0,
+      "title": "Placing tray inside oven",
+      "description": "The worker opens the oven door and slides a metal tray containing parts into the oven.",
+      "work": true
+    },
+    {
+      "start": 165.0,
+      "end": 166.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 166.0,
+      "end": 180.0,
+      "title": "Final inspection of oven interior",
+      "description": "The worker looks inside the oven and adjusts the tray and internal components.",
+      "work": true
+    },
+    {
+      "start": 180.0,
+      "end": 186.0,
+      "title": "Inspecting oven interior",
+      "description": "The worker looks inside the oven and adjusts some internal components.",
+      "work": true
+    },
+    {
+      "start": 186.0,
+      "end": 193.0,
+      "title": "Adjusting oven rack",
+      "description": "The worker uses both hands to reposition the oven rack inside the unit.",
+      "work": true
+    },
+    {
+      "start": 193.0,
+      "end": 198.0,
+      "title": "Closing oven door",
+      "description": "The worker closes the oven door and checks the seal.",
+      "work": true
+    },
+    {
+      "start": 198.0,
+      "end": 208.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 208.0,
+      "end": 214.0,
+      "title": "Testing oven knobs",
+      "description": "The worker turns several knobs on the front panel of the oven to ensure they function correctly.",
+      "work": true
+    },
+    {
+      "start": 214.0,
+      "end": 221.0,
+      "title": "Checking stove burners",
+      "description": "The worker places their hands over the stove burners to check for proper alignment.",
+      "work": true
+    },
+    {
+      "start": 221.0,
+      "end": 228.0,
+      "title": "Inspecting stove top",
+      "description": "The worker examines the surface of the stove top for any defects or misalignments.",
+      "work": true
+    },
+    {
+      "start": 228.0,
+      "end": 235.0,
+      "title": "Adjusting burner caps",
+      "description": "The worker adjusts the position of the burner caps on the stove top.",
+      "work": true
+    },
+    {
+      "start": 235.0,
+      "end": 242.0,
+      "title": "Testing control panel",
+      "description": "The worker presses buttons and turns knobs on the control panel to verify functionality.",
+      "work": true
+    },
+    {
+      "start": 242.0,
+      "end": 249.0,
+      "title": "Checking oven handle",
+      "description": "The worker grips and pulls the oven handle to ensure it is securely attached.",
+      "work": true
+    },
+    {
+      "start": 249.0,
+      "end": 256.0,
+      "title": "Inspecting side panels",
+      "description": "The worker runs their hands along the side panels of the oven to check for smoothness.",
+      "work": true
+    },
+    {
+      "start": 256.0,
+      "end": 262.0,
+      "title": "Final stove inspection",
+      "description": "The worker performs a final visual and tactile inspection of the entire stove unit.",
+      "work": true
+    },
+    {
+      "start": 262.0,
+      "end": 270.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 270.0,
+      "end": 279.0,
+      "title": "Testing stove control knobs",
+      "description": "The worker turns several knobs on the front panel of a black stove to test their function.",
+      "work": true
+    },
+    {
+      "start": 279.0,
+      "end": 289.0,
+      "title": "idle",
+      "description": null,
+      "work": false
+    },
+    {
+      "start": 289.0,
+      "end": 300.0,
+      "title": "Connecting electrical components",
+      "description": "The worker handles a white electrical connector and wires near the base of the stove assembly.",
+      "work": true
+    }
+  ],
+  "gt_work_pct": 57.3,
+  "windows": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "p_yes": 0.8333
+    },
+    {
+      "start": 2.0,
+      "end": 10.0,
+      "p_yes": 0.8688
+    },
+    {
+      "start": 4.0,
+      "end": 12.0,
+      "p_yes": 0.8872
+    },
+    {
+      "start": 6.0,
+      "end": 14.0,
+      "p_yes": 0.9263
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "p_yes": 0.85
+    },
+    {
+      "start": 10.0,
+      "end": 18.0,
+      "p_yes": 0.9334
+    },
+    {
+      "start": 12.0,
+      "end": 20.0,
+      "p_yes": 0.9161
+    },
+    {
+      "start": 14.0,
+      "end": 22.0,
+      "p_yes": 0.9458
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "p_yes": 0.9263
+    },
+    {
+      "start": 18.0,
+      "end": 26.0,
+      "p_yes": 0.9047
+    },
+    {
+      "start": 20.0,
+      "end": 28.0,
+      "p_yes": 0.8791
+    },
+    {
+      "start": 22.0,
+      "end": 30.0,
+      "p_yes": 0.8918
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "p_yes": 0.9005
+    },
+    {
+      "start": 26.0,
+      "end": 34.0,
+      "p_yes": 0.8615
+    },
+    {
+      "start": 28.0,
+      "end": 36.0,
+      "p_yes": 0.728
+    },
+    {
+      "start": 30.0,
+      "end": 38.0,
+      "p_yes": 0.7746
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "p_yes": 0.8615
+    },
+    {
+      "start": 34.0,
+      "end": 42.0,
+      "p_yes": 0.8245
+    },
+    {
+      "start": 36.0,
+      "end": 44.0,
+      "p_yes": 0.9334
+    },
+    {
+      "start": 38.0,
+      "end": 46.0,
+      "p_yes": 0.9649
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "p_yes": 0.9553
+    },
+    {
+      "start": 42.0,
+      "end": 50.0,
+      "p_yes": 0.9693
+    },
+    {
+      "start": 44.0,
+      "end": 52.0,
+      "p_yes": 0.9598
+    },
+    {
+      "start": 46.0,
+      "end": 54.0,
+      "p_yes": 0.9654
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "p_yes": 0.9458
+    },
+    {
+      "start": 50.0,
+      "end": 58.0,
+      "p_yes": 0.9724
+    },
+    {
+      "start": 52.0,
+      "end": 60.0,
+      "p_yes": 0.9621
+    },
+    {
+      "start": 54.0,
+      "end": 62.0,
+      "p_yes": 0.9592
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "p_yes": 0.9504
+    },
+    {
+      "start": 58.0,
+      "end": 66.0,
+      "p_yes": 0.9724
+    },
+    {
+      "start": 60.0,
+      "end": 68.0,
+      "p_yes": 0.9693
+    },
+    {
+      "start": 62.0,
+      "end": 70.0,
+      "p_yes": 0.9806
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "p_yes": 0.9573
+    },
+    {
+      "start": 66.0,
+      "end": 74.0,
+      "p_yes": 0.9759
+    },
+    {
+      "start": 68.0,
+      "end": 76.0,
+      "p_yes": 0.9533
+    },
+    {
+      "start": 70.0,
+      "end": 78.0,
+      "p_yes": 0.9621
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "p_yes": 0.9489
+    },
+    {
+      "start": 74.0,
+      "end": 82.0,
+      "p_yes": 0.9615
+    },
+    {
+      "start": 76.0,
+      "end": 84.0,
+      "p_yes": 0.9643
+    },
+    {
+      "start": 78.0,
+      "end": 86.0,
+      "p_yes": 0.9466
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "p_yes": 0.9315
+    },
+    {
+      "start": 82.0,
+      "end": 90.0,
+      "p_yes": 0.906
+    },
+    {
+      "start": 84.0,
+      "end": 92.0,
+      "p_yes": 0.8578
+    },
+    {
+      "start": 86.0,
+      "end": 94.0,
+      "p_yes": 0.8245
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "p_yes": 0.8775
+    },
+    {
+      "start": 90.0,
+      "end": 98.0,
+      "p_yes": 0.8872
+    },
+    {
+      "start": 92.0,
+      "end": 100.0,
+      "p_yes": 0.8615
+    },
+    {
+      "start": 94.0,
+      "end": 102.0,
+      "p_yes": 0.8397
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "p_yes": 0.9399
+    },
+    {
+      "start": 98.0,
+      "end": 106.0,
+      "p_yes": 0.9334
+    },
+    {
+      "start": 100.0,
+      "end": 108.0,
+      "p_yes": 0.939
+    },
+    {
+      "start": 102.0,
+      "end": 110.0,
+      "p_yes": 0.945
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "p_yes": 0.9219
+    },
+    {
+      "start": 106.0,
+      "end": 114.0,
+      "p_yes": 0.9511
+    },
+    {
+      "start": 108.0,
+      "end": 116.0,
+      "p_yes": 0.9638
+    },
+    {
+      "start": 110.0,
+      "end": 118.0,
+      "p_yes": 0.9208
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "p_yes": 0.954
+    },
+    {
+      "start": 114.0,
+      "end": 122.0,
+      "p_yes": 0.974
+    },
+    {
+      "start": 116.0,
+      "end": 124.0,
+      "p_yes": 0.9803
+    },
+    {
+      "start": 118.0,
+      "end": 126.0,
+      "p_yes": 0.961
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "p_yes": 0.9759
+    },
+    {
+      "start": 122.0,
+      "end": 130.0,
+      "p_yes": 0.9489
+    },
+    {
+      "start": 124.0,
+      "end": 132.0,
+      "p_yes": 0.9099
+    },
+    {
+      "start": 126.0,
+      "end": 134.0,
+      "p_yes": 0.8808
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "p_yes": 0.8289
+    },
+    {
+      "start": 130.0,
+      "end": 138.0,
+      "p_yes": 0.9263
+    },
+    {
+      "start": 132.0,
+      "end": 140.0,
+      "p_yes": 0.9185
+    },
+    {
+      "start": 134.0,
+      "end": 142.0,
+      "p_yes": 0.8199
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "p_yes": 0.8933
+    },
+    {
+      "start": 138.0,
+      "end": 146.0,
+      "p_yes": 0.9433
+    },
+    {
+      "start": 140.0,
+      "end": 148.0,
+      "p_yes": 0.9573
+    },
+    {
+      "start": 142.0,
+      "end": 150.0,
+      "p_yes": 0.9363
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "p_yes": 0.9363
+    },
+    {
+      "start": 146.0,
+      "end": 154.0,
+      "p_yes": 0.9399
+    },
+    {
+      "start": 148.0,
+      "end": 156.0,
+      "p_yes": 0.9627
+    },
+    {
+      "start": 150.0,
+      "end": 158.0,
+      "p_yes": 0.9099
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "p_yes": 0.923
+    },
+    {
+      "start": 154.0,
+      "end": 162.0,
+      "p_yes": 0.9489
+    },
+    {
+      "start": 156.0,
+      "end": 164.0,
+      "p_yes": 0.9433
+    },
+    {
+      "start": 158.0,
+      "end": 166.0,
+      "p_yes": 0.9433
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "p_yes": 0.9334
+    },
+    {
+      "start": 162.0,
+      "end": 170.0,
+      "p_yes": 0.9219
+    },
+    {
+      "start": 164.0,
+      "end": 172.0,
+      "p_yes": 0.9425
+    },
+    {
+      "start": 166.0,
+      "end": 174.0,
+      "p_yes": 0.9124
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "p_yes": 0.8439
+    },
+    {
+      "start": 170.0,
+      "end": 178.0,
+      "p_yes": 0.8977
+    },
+    {
+      "start": 172.0,
+      "end": 180.0,
+      "p_yes": 0.8933
+    },
+    {
+      "start": 174.0,
+      "end": 182.0,
+      "p_yes": 0.867
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "p_yes": 0.9161
+    },
+    {
+      "start": 178.0,
+      "end": 186.0,
+      "p_yes": 0.8824
+    },
+    {
+      "start": 180.0,
+      "end": 188.0,
+      "p_yes": 0.8918
+    },
+    {
+      "start": 182.0,
+      "end": 190.0,
+      "p_yes": 0.9417
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "p_yes": 0.9546
+    },
+    {
+      "start": 186.0,
+      "end": 194.0,
+      "p_yes": 0.9759
+    },
+    {
+      "start": 188.0,
+      "end": 196.0,
+      "p_yes": 0.9702
+    },
+    {
+      "start": 190.0,
+      "end": 198.0,
+      "p_yes": 0.9632
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "p_yes": 0.9274
+    },
+    {
+      "start": 194.0,
+      "end": 202.0,
+      "p_yes": 0.9363
+    },
+    {
+      "start": 196.0,
+      "end": 204.0,
+      "p_yes": 0.9219
+    },
+    {
+      "start": 198.0,
+      "end": 206.0,
+      "p_yes": 0.9334
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "p_yes": 0.8397
+    },
+    {
+      "start": 202.0,
+      "end": 210.0,
+      "p_yes": 0.8824
+    },
+    {
+      "start": 204.0,
+      "end": 212.0,
+      "p_yes": 0.884
+    },
+    {
+      "start": 206.0,
+      "end": 214.0,
+      "p_yes": 0.8856
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "p_yes": 0.9073
+    },
+    {
+      "start": 210.0,
+      "end": 218.0,
+      "p_yes": 0.8439
+    },
+    {
+      "start": 212.0,
+      "end": 220.0,
+      "p_yes": 0.8007
+    },
+    {
+      "start": 214.0,
+      "end": 222.0,
+      "p_yes": 0.8333
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "p_yes": 0.8222
+    },
+    {
+      "start": 218.0,
+      "end": 226.0,
+      "p_yes": 0.7663
+    },
+    {
+      "start": 220.0,
+      "end": 228.0,
+      "p_yes": 0.9252
+    },
+    {
+      "start": 222.0,
+      "end": 230.0,
+      "p_yes": 0.9408
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "p_yes": 0.9615
+    },
+    {
+      "start": 226.0,
+      "end": 234.0,
+      "p_yes": 0.939
+    },
+    {
+      "start": 228.0,
+      "end": 236.0,
+      "p_yes": 0.9756
+    },
+    {
+      "start": 230.0,
+      "end": 238.0,
+      "p_yes": 0.9643
+    },
+    {
+      "start": 232.0,
+      "end": 240.0,
+      "p_yes": 0.9458
+    },
+    {
+      "start": 234.0,
+      "end": 242.0,
+      "p_yes": 0.9698
+    },
+    {
+      "start": 236.0,
+      "end": 244.0,
+      "p_yes": 0.9489
+    },
+    {
+      "start": 238.0,
+      "end": 246.0,
+      "p_yes": 0.8888
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "p_yes": 0.9482
+    },
+    {
+      "start": 242.0,
+      "end": 250.0,
+      "p_yes": 0.9752
+    },
+    {
+      "start": 244.0,
+      "end": 252.0,
+      "p_yes": 0.9674
+    },
+    {
+      "start": 246.0,
+      "end": 254.0,
+      "p_yes": 0.9592
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "p_yes": 0.9893
+    },
+    {
+      "start": 250.0,
+      "end": 258.0,
+      "p_yes": 0.9763
+    },
+    {
+      "start": 252.0,
+      "end": 260.0,
+      "p_yes": 0.9466
+    },
+    {
+      "start": 254.0,
+      "end": 262.0,
+      "p_yes": 0.9566
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "p_yes": 0.9252
+    },
+    {
+      "start": 258.0,
+      "end": 266.0,
+      "p_yes": 0.8808
+    },
+    {
+      "start": 260.0,
+      "end": 268.0,
+      "p_yes": 0.7372
+    },
+    {
+      "start": 262.0,
+      "end": 270.0,
+      "p_yes": 0.7635
+    },
+    {
+      "start": 264.0,
+      "end": 272.0,
+      "p_yes": 0.8758
+    },
+    {
+      "start": 266.0,
+      "end": 274.0,
+      "p_yes": 0.9433
+    },
+    {
+      "start": 268.0,
+      "end": 276.0,
+      "p_yes": 0.9573
+    },
+    {
+      "start": 270.0,
+      "end": 278.0,
+      "p_yes": 0.961
+    },
+    {
+      "start": 272.0,
+      "end": 280.0,
+      "p_yes": 0.974
+    },
+    {
+      "start": 274.0,
+      "end": 282.0,
+      "p_yes": 0.8948
+    },
+    {
+      "start": 276.0,
+      "end": 284.0,
+      "p_yes": 0.9099
+    },
+    {
+      "start": 278.0,
+      "end": 286.0,
+      "p_yes": 0.8597
+    },
+    {
+      "start": 280.0,
+      "end": 288.0,
+      "p_yes": 0.8634
+    },
+    {
+      "start": 282.0,
+      "end": 290.0,
+      "p_yes": 0.9334
+    },
+    {
+      "start": 284.0,
+      "end": 292.0,
+      "p_yes": 0.8903
+    },
+    {
+      "start": 286.0,
+      "end": 294.0,
+      "p_yes": 0.9019
+    },
+    {
+      "start": 288.0,
+      "end": 296.0,
+      "p_yes": 0.8129
+    },
+    {
+      "start": 290.0,
+      "end": 298.0,
+      "p_yes": 0.7905
+    },
+    {
+      "start": 292.0,
+      "end": 300.0,
+      "p_yes": 0.8333
+    }
+  ],
+  "sweep": [
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.3,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.325,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.35,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.375,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.4,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.425,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.45,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.475,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.5,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.525,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.55,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.575,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.6,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.625,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.65,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.675,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.7,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.725,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.75,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.573,
+      "recall": 1.0,
+      "f1": 0.729,
+      "accuracy": 0.573,
+      "tp": 1720,
+      "fp": 1280,
+      "fn": 0,
+      "threshold": 0.775,
+      "work_pct": 100.0,
+      "n_spans": 1
+    },
+    {
+      "precision": 0.577,
+      "recall": 1.0,
+      "f1": 0.732,
+      "accuracy": 0.58,
+      "tp": 1720,
+      "fp": 1260,
+      "fn": 0,
+      "threshold": 0.8,
+      "work_pct": 99.3,
+      "n_spans": 2
+    },
+    {
+      "precision": 0.58,
+      "recall": 0.965,
+      "f1": 0.725,
+      "accuracy": 0.58,
+      "tp": 1660,
+      "fp": 1200,
+      "fn": 60,
+      "threshold": 0.825,
+      "work_pct": 95.3,
+      "n_spans": 5
+    },
+    {
+      "precision": 0.583,
+      "recall": 0.895,
+      "f1": 0.706,
+      "accuracy": 0.573,
+      "tp": 1540,
+      "fp": 1100,
+      "fn": 180,
+      "threshold": 0.85,
+      "work_pct": 88.0,
+      "n_spans": 4
+    }
+  ],
+  "best": {
+    "precision": 0.577,
+    "recall": 1.0,
+    "f1": 0.732,
+    "accuracy": 0.58,
+    "tp": 1720,
+    "fp": 1260,
+    "fn": 0,
+    "threshold": 0.8,
+    "work_pct": 99.3,
+    "n_spans": 2
+  },
+  "separation": {
+    "mean_on_work": 0.9203,
+    "mean_on_idle": 0.903,
+    "gap": 0.0173
+  },
+  "result_at_default_thr": {
+    "precision": 0.573,
+    "recall": 1.0,
+    "f1": 0.729,
+    "accuracy": 0.573,
+    "tp": 1720,
+    "fp": 1280,
+    "fn": 0
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 300.0,
+      "object": "gas stove",
+      "verb": "adjusting",
+      "conf": 0.518,
+      "label": "adjusting gas stove",
+      "top3": [
+        [
+          "adjusting",
+          0.518
+        ],
+        [
+          "testing",
+          0.329
+        ],
+        [
+          "closing",
+          0.068
+        ]
+      ],
+      "gt_overlap": [
+        "Testing stove knobs",
+        "Testing stove knobs",
+        "Picking up white plastic strip"
+      ]
+    }
+  ],
+  "spans_at_best_thr": [
+    {
+      "start": 0.0,
+      "end": 34.0
+    },
+    {
+      "start": 36.0,
+      "end": 300.0
+    }
+  ],
+  "timing": {
+    "total_s": 583.8,
+    "model_load_s": 14.7,
+    "pass1_verdict_s": 560.6,
+    "pass2_label_s": 8.5,
+    "video_dur_s": 300.0,
+    "realtime_factor": 1.95,
+    "windows": 147,
+    "frame_read_s_total": 256.9,
+    "inference_s_total": 303.6,
+    "ms_per_window_read": 1748,
+    "ms_per_window_infer": 2066
+  },
+  "resources": {
+    "samples": 579,
+    "ram_mb_mean": 7147.6,
+    "ram_mb_max": 7398,
+    "gpu_pct_mean": 43.5,
+    "gpu_pct_max": 99,
+    "cpu_pct_mean_mean": 42.8,
+    "cpu_pct_mean_max": 87.5,
+    "tj_c_mean": 42.6,
+    "tj_c_max": 44.593,
+    "vdd_in_mw_mean": 12060.0,
+    "vdd_in_mw_max": 15807,
+    "ram_total_mb": 7619
+  }
+}

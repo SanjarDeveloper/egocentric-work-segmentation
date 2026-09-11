@@ -13,6 +13,11 @@ including the case where the gate does not work.
 > It is the baseline the timings here are compared against, and its findings on
 > quantisation, model sizes and prompt wording still hold.
 
+> **[JETSON_VLM_TEST_REPORT.md](JETSON_VLM_TEST_REPORT.md)** is the full audit record:
+> every model tested and why each one was rejected, all prompt and parameter sweeps,
+> measured CPU/GPU/RAM/power load, MCAP reading problems, and the reproducibility
+> caveats. Written for readers who were not in the room.
+
 ---
 
 ## Results
